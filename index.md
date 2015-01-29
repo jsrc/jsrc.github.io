@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 江上的blog
-tagline: Supporting tagline
 ---
 
 江上日出
