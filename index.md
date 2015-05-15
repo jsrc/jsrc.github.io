@@ -5,13 +5,10 @@ title: 江上的blog
 
 {% include JB/setup %}
 
-[![江上日出](/assets/headphoto.jpg)
-](http://github.com/jsrc)
-
 江上日出
 I'm Here！
-Follow me on [Twitter →](https://twitter.com/jsrc001)
-关注我的微博 [微博 →](http://weibo.com/jsrc)
+Follow me on [Twitter ←](https://twitter.com/jsrc001)
+关注我的[微博 ←](http://weibo.com/jsrc)
 
 ## Blog Posts
 
@@ -21,4 +18,6 @@ Follow me on [Twitter →](https://twitter.com/jsrc001)
   {% endfor %}
 </ul>
 
+
 才不会告诉你我模版是抄某人的呢，o(￣ヘ￣o＃) 
+
