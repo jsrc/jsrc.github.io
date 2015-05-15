@@ -3,20 +3,28 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
-markdown: redcarpet
+# pygments: true
+highlighter : pygments
+markdown: kramdown
+# markdown: redcarpet
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : 江上的blog
-tagline: Site Tagline
-author : 
+# tagline: Site Tagline
+author :
   name : jsrc
-  email : jsrc
+  email : jsrc001@foxmail.com
   github : jsrc
   twitter : jsrc001
-  feedburner : feedname
+#  feedburner : feedname
+
+theme :
+  name : alt-gereksiz
+  # name : twitter
+  # name : mark-reid
+  # name : bootstrap-3
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -83,7 +91,8 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      # short_name : jekyllbootstrap
+      short_name : jsrc
     livefyre :
       site_id : 123
     intensedebate :
@@ -93,13 +102,14 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : false 
+    provider : false
+    # provider : google 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
@@ -117,7 +127,7 @@ JB :
   #
   sharing :
     provider : false
-    
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -128,4 +138,28 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+redcarpet:
+  extensions:
+    - hard_wrap
+    # - no_intra_emphasis
+    # - autolink
+    - strikethrough
+    - fenced_code_blocks
+    - tables
+    - superscript
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  parse_block_html: true
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
