@@ -10,7 +10,7 @@ I'm Here！
 Follow me on [Twitter ←](https://twitter.com/jsrc001)
 关注我的[微博 ←](http://weibo.com/jsrc)
 
-## Blog Posts
+## 文章列表
 
 <ul class="posts">
   {% for post in site.posts %}
