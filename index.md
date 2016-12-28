@@ -18,6 +18,3 @@ Follow me on [Twitter ←](https://twitter.com/jsrc001)
   {% endfor %}
 </ul>
 
-
-才不会告诉你我模版是抄某人的呢，o(￣ヘ￣o＃) 
-
