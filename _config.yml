@@ -1,13 +1,13 @@
 # Site settings
 title: 江上的博客
 description: >
-  江上的博客，基于github，base on github.
+  江上的博客，基于github。江上's blog, base on github.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jsrc.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: 江上·On the River
+  fullname: 江上
   googleplus: 
   github: jsrc
   twitter: jsrc001
