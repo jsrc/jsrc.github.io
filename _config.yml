@@ -1,9 +1,7 @@
 # Site settings
 title: 江上's blog
-description: >没啥好描述的
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  江上's blog，基于github，base on github.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jsrc.github.io" # the base hostname & protocol for your site
