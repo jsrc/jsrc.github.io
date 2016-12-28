@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{% include custom/setup %}
-{% capture   theme_page_html %}themes/{{ site.theme.name }}/page.html{% endcapture %}
-{% include {{theme_page_html}} %}
-{% assign    theme_page_html = nil %}
+{% include page/title.html %}
+
+{{ content }}
+
+{% include page/explore.html %}
