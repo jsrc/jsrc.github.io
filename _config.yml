@@ -1,7 +1,7 @@
 # Site settings
-title: 江上's blog
+title: 江上的博客
 description: >
-  江上's blog，基于github，base on github.
+  江上的博客，基于github，base on github.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jsrc.github.io" # the base hostname & protocol for your site
