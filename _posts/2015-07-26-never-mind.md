@@ -1,8 +1,8 @@
 ---
 layout: post
-category : 随笔
-title: 拖延症晚期患者
-tags : [随笔]
+title:  拖延症晚期患者
+date:   2015-07-26 23:34:01
+categories: [whatever]
 ---
 
 啊～什么事情都不想做

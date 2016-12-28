@@ -1,10 +1,9 @@
 ---
 layout: post
-category : 随笔
-title: 伐开心，买包包
-tags : [随笔]
+title:  伐开心，买包包
+date:   2015-11-18 23:34:01
+categories: [whatever]
 ---
-
 
 首先解释一下标题，
 包包是个人
