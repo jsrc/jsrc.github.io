@@ -2,7 +2,7 @@
 
 一个用 Astro 重建的双语个人博客，保留了旧站里的图片资产和整体气质，同时把内容结构、样式和本地开发流程都换成了更现代的方案。
 
-站点线上地址是 [onriver.top](https://onriver.top)。
+站点线上地址是 [jsrc.github.io](https://jsrc.github.io/)。
 
 ## 本地运行
 

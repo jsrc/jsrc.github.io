@@ -1,8 +1,8 @@
 export const siteMeta = {
   title: "Benny's Blog",
-  siteUrl: "https://onriver.top",
+  siteUrl: "https://jsrc.github.io",
   author: "Benny",
-  accent: "https://onriver.top/img/home-bg.jpg"
+  accent: "https://jsrc.github.io/img/home-bg.jpg"
 };
 
 export const locales = ["zh-cn", "en"] as const;

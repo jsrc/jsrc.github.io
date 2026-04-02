@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://onriver.top",
+  site: "https://jsrc.github.io",
   trailingSlash: "always"
 });
